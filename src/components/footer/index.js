@@ -29,10 +29,10 @@ const Footer = () => {
           </div>
           <div className="col-lg-3 col-sm-6">
             <FooterH2>Customers</FooterH2>
-            <FooterLink href="#">Our Customers</FooterLink>
+            {/* <FooterLink href="#">Our Customers</FooterLink>
             <FooterLink href="#">How to reach us</FooterLink>
             <FooterLink href="#">Video Samples</FooterLink>
-            <FooterLink href="#">Agency</FooterLink>
+            <FooterLink href="#">Agency</FooterLink> */}
           </div>
           {/* <div className="col-lg-3 col-sm-6">
             <FooterH2>Follow Us</FooterH2>
