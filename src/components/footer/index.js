@@ -17,8 +17,8 @@ const Footer = () => {
             <FooterLink href="#">How it works</FooterLink>
             {/* <FooterLink href="#">Testimonials</FooterLink>
             <FooterLink href="#">Careers</FooterLink>
-            <FooterLink href="#">Investors</FooterLink> */}
-            <FooterLink href="#">Terms of Service</FooterLink>
+            <FooterLink href="#">Investors</FooterLink>
+            <FooterLink href="#">Terms of Service</FooterLink> */}
           </div>
           <div className="col-lg-3 col-sm-6">
             <FooterH2>Contact Us</FooterH2>
