@@ -8,8 +8,8 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn,
-  NavBtnLink,
+  // NavBtn,
+  // NavBtnLink,
 } from "./NavbarElements";
 import "./../../App.css";
 
