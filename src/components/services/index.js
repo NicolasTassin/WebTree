@@ -59,8 +59,8 @@ const Services = () => {
           <ServicesIcon src={Icon3} />
           <ServicesH2>Dex listing</ServicesH2>
           <ServicesP>
-            Aenean in egestas lectus. Pellentesque habitant morbi tristique
-            senectus et netus et malesuada fames ac turpis egestas.s
+            You created your token and you want to update in listing such as Binance, Uniswap. or simply promote in on social medias?
+            We have strategies for that.
           </ServicesP>
         </ServicesCard>
 
