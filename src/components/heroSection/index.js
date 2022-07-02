@@ -8,7 +8,7 @@ import {
   ArrowForward,
   ArrowRight,
 } from "./HeroElements";
-import { ButtonR, Button } from "../ButtonElements";
+import { Button } from "../ButtonElements";
 import Video from "../../videos/bgvideo.mp4";
 import "../../App.css";
 

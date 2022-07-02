@@ -3,6 +3,9 @@ import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIc
 import Icon1 from "../../images/space.svg"
 import Icon2 from "../../images/online.svg"
 import Icon3 from "../../images/real-time.svg"
+import IconToken from "../../images/token.svg"
+import IconControlPanel from "../../images/control-panel.svg"
+import IconList from "../../images/list.svg"
 
 const Services = () => {
   return (
@@ -29,7 +32,7 @@ const Services = () => {
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={IconControlPanel} />
           <ServicesH2>Web3 Integrations</ServicesH2>
           <ServicesP>
             Web 3 is the next generation of web technologies. It is the
@@ -48,7 +51,7 @@ const Services = () => {
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={IconToken} />
           <ServicesH2>Token creation</ServicesH2>
           <ServicesP>
             Create your own token project, we help you to make sustainable tokenomics
@@ -56,7 +59,7 @@ const Services = () => {
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={IconList} />
           <ServicesH2>Dex listing</ServicesH2>
           <ServicesP>
             You created your token and you want to update in listing such as Binance, Uniswap. or simply promote in on social medias?
