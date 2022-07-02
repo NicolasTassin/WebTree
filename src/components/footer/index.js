@@ -12,6 +12,13 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapper className="container py-5">
         <div className="row gx-5 px-4 gy-4">
+            <div className="col-lg-3 col-sm-6">
+              <FooterH2>Contact Us</FooterH2>
+              <FooterLink href="#">info@webthree.tech</FooterLink>
+              <FooterLink href="#">7901 4th St N STE 300</FooterLink>
+              <FooterLink href="#">St. Petersburg, FL 33702</FooterLink>
+              <FooterLink href="#">United States</FooterLink>
+            </div>
           <div className="col-lg-3 col-sm-6">
             <FooterH2>About Us</FooterH2>
             <FooterLink href="#">How it works</FooterLink>
@@ -20,20 +27,13 @@ const Footer = () => {
             <FooterLink href="#">Investors</FooterLink>
             <FooterLink href="#">Terms of Service</FooterLink> */}
           </div>
-          <div className="col-lg-3 col-sm-6">
-            <FooterH2>Contact Us</FooterH2>
-            <FooterLink href="#">info@webthree.tech</FooterLink>
-            <FooterLink href="#">7901 4th St N STE 300</FooterLink>
-            <FooterLink href="#">St. Petersburg, FL 33702</FooterLink>
-            <FooterLink href="#">United States</FooterLink>
-          </div>
-          <div className="col-lg-3 col-sm-6">
+          {/* <div className="col-lg-3 col-sm-6">
             <FooterH2>Customers</FooterH2>
-            {/* <FooterLink href="#">Our Customers</FooterLink>
+            <FooterLink href="#">Our Customers</FooterLink>
             <FooterLink href="#">How to reach us</FooterLink>
             <FooterLink href="#">Video Samples</FooterLink>
-            <FooterLink href="#">Agency</FooterLink> */}
-          </div>
+            <FooterLink href="#">Agency</FooterLink>
+          </div> */}
           {/* <div className="col-lg-3 col-sm-6">
             <FooterH2>Follow Us</FooterH2>
             <FooterLink href="#">Instagram</FooterLink>
