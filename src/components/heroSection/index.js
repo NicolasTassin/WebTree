@@ -26,7 +26,7 @@ const HeroSection = () => {
         Build and deploy cutting-edge projects
         </p>
         <HeroBtnWrapper>
-          <ButtonR to="/signin" onMouseEnter={() => setHover(!hover)} onMouseLeave={() => setHover(!hover)} primary="true" dark="true">
+          <ButtonR to="about" onMouseEnter={() => setHover(!hover)} onMouseLeave={() => setHover(!hover)} primary="true" dark="true">
             Discover {hover ? <ArrowForward /> : <ArrowRight />}
           </ButtonR>
         </HeroBtnWrapper>
