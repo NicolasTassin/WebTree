@@ -5,6 +5,7 @@ import { Navbar } from "./../components/navbar";
 import { Sidebar } from "./../components/sidebar";
 
 import Image1 from "../images/design-notes.svg";
+import ImageMail from "../images/mail.svg";
 import Image2 from "../images/space.svg";
 import InfoSectionLight from "../components/infoSectionLight";
 import Services from "../components/services";
@@ -40,7 +41,7 @@ export const Home = () => {
       />
       <Services />
       <InfoSectionLight
-        image={Image1}
+        image={ImageMail}
         id="#"
         subtitle="Have a quote"
         title="And let's find a solution for your company"
